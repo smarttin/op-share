@@ -8,8 +8,7 @@
   "scripts": {
     "dev": "nodemon --exec babel-node src/server.js",
     "generate": "prisma1 generate",
-    "deploy": "prisma1 deploy",
-    "prisma": "yarn deploy && yarn generate"
+    "deploy": "prisma1 deploy"
   },
   "devDependencies": {
     "@babel/cli": "^7.11.6",
